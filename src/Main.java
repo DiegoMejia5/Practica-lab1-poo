@@ -9,8 +9,12 @@ public class Main {
         boolean continuar = true;
 
         while (true) {
-            System.out.println("%nCalculadora%n");
-            System.out.println("%n1.sumar%2.restar%n3.multiplicar%n4.dividir%n5.salir%n");
+            System.out.println("Calculadora");
+            System.out.println("1. sumar");
+            System.out.println("2. restar");
+            System.out.println("3. multiplicar");
+            System.out.println("4. dividir");
+            System.out.println("5. salir");
             int opcion = read.nextInt();
             if (opcion == 5) {
                 return;
